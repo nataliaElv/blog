@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
 Hi! 👋
-I'm Natalia, a Computational Linguist from Madrid (Spain) working at Hugging Face. I'm passionate about languages and curating high-quality data for AI. 
+I'm Natalia, a Computational Linguist from Madrid (Spain) working at Hugging Face 🤗. I'm passionate about languages and curating high-quality data for AI. 
 
 Before starting my journey in AI, I studied Classics and did a PhD at the University of Cambridge on Ancient Greek Linguistics, more specifically on the linguistic comparison of archaic Greek alphabets.
 
@@ -19,6 +19,7 @@ Follow me on social media:
 - Bluesky: https://bsky.app/profile/nataliaelv.bsky.social
 - X: https://x.com/natalakiou
 - LinkedIn: https://www.linkedin.com/in/neastoreca/
+
 Follow my work:
 - Hugging Face: https://huggingface.co/nataliaElv
 - Github: https://github.com/nataliaElv
