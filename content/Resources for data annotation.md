@@ -5,6 +5,7 @@ tags:
   - data
   - curation
   - annotation
+  - en
 ---
 Here are some resources I always go to for data annotation and how to have the best-quality possible for your annotated datasets:
 
