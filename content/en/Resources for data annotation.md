@@ -1,5 +1,5 @@
 ---
-title: Resources for data annotation
+title: 📚 Resources for data annotation
 draft: false
 tags:
   - data
@@ -7,6 +7,8 @@ tags:
   - annotation
   - en
 ---
+_¿Quieres leer esta página en español? -> [[Recursos sobre anotación de datos]]_
+
 Here are some resources I always go to for data annotation and how to have the best-quality possible for your annotated datasets:
 
 📚 Books:
@@ -14,4 +16,5 @@ Here are some resources I always go to for data annotation and how to have the b
 - Pustejovsky, J., & Stubbs, A. (2012). _Natural Language Annotation for Machine Learning: A guide to corpus-building for applications_. O'Reilly Media, Inc. https://www.google.es/books/edition/Natural_Language_Annotation_for_Machine_/QtzmqamXxx4C?hl=en&gbpv=1
 
 📄 Papers & white-papers: 
-- _Anotación de corpus lingüísticos: metodología utilizada en el Instituto de Ingeniería del Conocimiento (IIC)_  https://www.iic.uam.es/pdf/anotacion-corpus-linguisticos.pdf
+- Aldama, N. et al. _Anotación de corpus lingüísticos: metodología utilizada en el Instituto de Ingeniería del Conocimiento (IIC)_  https://www.iic.uam.es/pdf/anotacion-corpus-linguisticos.pdf
+- Tseng, T. et al. (2020) _Best Practices for Managing Annotation Projects_. Bloomberg https://assets.bbhub.io/company/sites/40/2020/09/Annotation-Best-Practices-091020-FINAL.pdf
