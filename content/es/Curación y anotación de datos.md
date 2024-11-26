@@ -1,5 +1,5 @@
 ---
-title: ✍️ Curación y anotación de datos
+title: Curación y anotación de datos
 draft: false
 tags:
   - data

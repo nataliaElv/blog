@@ -1,5 +1,5 @@
 ---
-title: 📚 Resources for data annotation
+title: Resources for data annotation
 draft: false
 tags:
   - data

@@ -1,5 +1,5 @@
 ---
-title: ✍️ Data curation & annotation
+title: Data curation & annotation
 draft: false
 tags:
   - data

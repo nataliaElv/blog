@@ -1,5 +1,5 @@
 ---
-title: 📚 Recursos sobre anotación de datos
+title: Recursos sobre anotación de datos
 draft: false
 tags:
   - data
