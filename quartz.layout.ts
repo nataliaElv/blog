@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.Backlinks(),],
   footer: Component.Footer({
     links: {
       Bluesky: "https://bsky.app/profile/nataliaelv.bsky.social",
@@ -20,22 +20,21 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.PageTitle(),
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
+    Component.Breadcrumbs(),
     Component.ContentMeta(),
   ],
   left: [
     // Component.MobileOnly(Component.Spacer()),
+    Component.PageTitle(),
+    Component.Darkmode(),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
-    Component.Darkmode(),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Graph(),
     Component.TagList(),
-    Component.Backlinks(),
+    Component.Graph(),
   ],
 }
 
@@ -50,7 +49,6 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
-    Component.Darkmode(),
   ],
   right: [],
 }
