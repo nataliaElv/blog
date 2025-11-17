@@ -3,7 +3,7 @@ title: Some thoughts on ALIA and the Public AI Forum
 draft: true
 tags:
   - example-tag
-Date published:
+date:
 ---
 Last week, I attended the ALIA Public AI Forum organised by the Barcelona Supercomputing Center (BSC), where researchers, companies, and institutions gathered to discuss Spain's ambitious public AI infrastructure project. The event was short but thought-provoking, with many highlights about the challenges in the AI space and especially in Europe. 
 
