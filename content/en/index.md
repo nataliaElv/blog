@@ -1,13 +1,9 @@
 ---
-title: "English"
+title: Welcome
 draft: false
 tags:
   - en
 ---
-
-_[Leer en español →](../es/)_
-
-# Welcome
 
 Hi! 👋
 

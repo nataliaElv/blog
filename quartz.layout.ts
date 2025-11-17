@@ -23,8 +23,9 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
     // Component.MobileOnly(Component.Spacer()),
-    Component.PageTitle(),
+    Component.LanguageAwarePageTitle(),
     Component.Darkmode(),
+    Component.LanguageSelector(),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
   ],
@@ -38,6 +39,12 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
-  left: [Component.PageTitle(), Component.Search(), Component.DesktopOnly(Component.Explorer())],
+  left: [
+    Component.LanguageAwarePageTitle(),
+    Component.Darkmode(),
+    Component.LanguageSelector(),
+    Component.Search(),
+    Component.DesktopOnly(Component.Explorer()),
+  ],
   right: [],
 }
