@@ -24,8 +24,14 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     // Component.MobileOnly(Component.Spacer()),
     Component.LanguageAwarePageTitle(),
-    Component.Darkmode(),
-    Component.LanguageSelector(),
+    Component.Flex({
+      components: [
+        { Component: Component.Darkmode() },
+        { Component: Component.LanguageSelector() },
+      ],
+      direction: "row",
+      gap: "0.8rem",
+    }),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
   ],
@@ -41,8 +47,14 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
     Component.LanguageAwarePageTitle(),
-    Component.Darkmode(),
-    Component.LanguageSelector(),
+    Component.Flex({
+      components: [
+        { Component: Component.Darkmode() },
+        { Component: Component.LanguageSelector() },
+      ],
+      direction: "row",
+      gap: "0.8rem",
+    }),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
   ],
