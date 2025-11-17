@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "quartz.jzhao.xyz", // TODO: Update this to your actual domain
+    ignorePatterns: ["private", "templates", ".obsidian", "legacy", "Ideas.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

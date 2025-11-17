@@ -7,9 +7,10 @@ tags:
   - annotation
   - es
 ---
-_Would you like to read this page in English? -> [[Data curation & annotation]]_
 
- ## **¿Qué es la curación de datos?**
+_[Read in English →](../../en/blog/data_curation)_
+
+## **¿Qué es la curación de datos?**
 
 La curación de datos consiste en la creación de un corpus (o conjunto de datos) para un caso de uso específico, recopilando datos y asegurando que sean consistentes y relevantes para tu problema. Este corpus se puede utilizar, entre otras cosas, para el entrenamiento y/o evaluación de modelos o pipelines de aprendizaje automático o inteligencia artificial.
 

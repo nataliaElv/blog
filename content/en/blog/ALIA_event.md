@@ -1,10 +1,22 @@
 ---
 title: Some thoughts on ALIA and the Public AI Forum
-draft: true
+draft: false
+banner: /images/growtika-nGoCBxiaRO0-unsplash.jpg
 tags:
-  - example-tag
-date:
+  - AI
+  - AI engineering
+  - AI deployments
+  - Public AI
+  - ALIA
+  - en
 ---
+
+_[Leer en español →](../../es/blog/Evento_ALIA)_
+
+![Header image](/images/growtika-nGoCBxiaRO0-unsplash.jpg)
+
+*Photo by [Growtika](https://unsplash.com/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
 Last week, I attended the ALIA Public AI Forum organised by the Barcelona Supercomputing Center (BSC), where researchers, companies, and institutions gathered to discuss Spain's ambitious public AI infrastructure project. The event was short but thought-provoking, with many highlights about the challenges in the AI space and especially in Europe. 
 
 First, in case you don't know it, [ALIA](https://alia.gob.es/) is a model family developed publicly by the BSC to promote the development of AI in all official and co-official languages in Spain. They are 100% open-source (open weights, open code AND open data!) and cover multiple modalities (text, voice, translation and multimodal).
