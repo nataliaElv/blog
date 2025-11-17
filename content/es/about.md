@@ -5,8 +5,6 @@ tags:
   - es
 ---
 
-_[Read in English →](../en/1-about)_
-
 ¡Hola! 👋  
 
 Soy Natalia, ingeniera de IA de Madrid (España). Trabajo de forma independiente ayudando a empresas a construir sistemas de IA confiables para problemas complejos de texto. Me apasionan las lenguas y construir datos de alta calidad para IA.

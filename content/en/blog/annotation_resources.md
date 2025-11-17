@@ -8,8 +8,6 @@ tags:
   - en
 ---
 
-_[Leer en español →](../../es/blog/recursos_anotación)_
-
 Here are some resources I always go to for data annotation and how to have the best-quality possible for your annotated datasets:
 
 📚 Books:

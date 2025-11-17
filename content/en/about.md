@@ -5,8 +5,6 @@ tags:
   - en
 ---
 
-_[Leer en español →](../es/1-about)_
-
 Hi! 👋  
 I'm Natalia, an AI Engineer from Madrid (Spain). I work independently helping companies build reliable AI systems for complex text problems. I'm passionate about languages and building high-quality data for AI.
 

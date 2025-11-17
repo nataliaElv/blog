@@ -8,8 +8,6 @@ tags:
   - es
 ---
 
-_[Read in English →](../../en/blog/annotation_resources)_
-
 Esta es una lista de recursos a los que acudo en relación a la anotación de datos y conseguir la mayor calidad posible para conjuntos de datos anotados:
 
 📚 Libros:

@@ -8,7 +8,6 @@ tags:
   - en
 ---
 
-_[Leer en español →](../../es/blog/curación_datos)_
 ## What is data curation? 
 
 Data curation consists in the creation of a corpus (or dataset) for a specific use case by gathering data and making sure that it is consistent and relevant for your problem. This corpus can be used, among other things, for the training and/or evaluation of ML/AI models or pipelines.

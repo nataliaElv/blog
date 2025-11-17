@@ -11,8 +11,6 @@ tags:
   - en
 ---
 
-_[Leer en español →](../../es/blog/Evento_ALIA)_
-
 ![Header image](/images/growtika-nGoCBxiaRO0-unsplash.jpg)
 
 *Photo by [Growtika](https://unsplash.com/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
