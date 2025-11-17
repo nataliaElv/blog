@@ -5,25 +5,22 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.Backlinks(),],
+  afterBody: [Component.Backlinks()],
   footer: Component.Footer({
     links: {
+      "Contact Me": "https://tally.so/r/wzPBV8",
       Bluesky: "https://bsky.app/profile/nataliaelv.bsky.social",
       X: "https://x.com/natalakiou",
       LinkedIn: "https://www.linkedin.com/in/neastoreca/",
       "Hugging Face": "Hugging Face: https://huggingface.co/nataliaElv",
-      GitHub: "https://github.com/nataliaElv"
+      GitHub: "https://github.com/nataliaElv",
     },
   }),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ArticleTitle(),
-    Component.Breadcrumbs(),
-    Component.ContentMeta(),
-  ],
+  beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
     // Component.MobileOnly(Component.Spacer()),
     Component.PageTitle(),
@@ -40,15 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.PageTitle(),
-    Component.Breadcrumbs(), 
-    Component.ArticleTitle(), 
-    Component.ContentMeta()
-  ],
-  left: [
-    Component.Search(),
-    Component.DesktopOnly(Component.Explorer()),
-  ],
+  beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
+  left: [Component.PageTitle(), Component.Search(), Component.DesktopOnly(Component.Explorer())],
   right: [],
 }
