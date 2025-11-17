@@ -5,6 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -27,6 +28,9 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = joinSegments(baseDir, "static/og-image.png")
+    const usesCustomOgImage = ctx.allFiles.some((f) => f.emit?.includes(CustomOgImagesEmitterName))
+    const ogImageDefaultPath = ogImagePath
+    const socialUrl = new URL(fileData.slug ?? "/", url).toString()
 
     return (
       <head>
