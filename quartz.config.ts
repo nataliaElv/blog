@@ -43,8 +43,8 @@ const config: QuartzConfig = {
           light: "#002b36", // base03 - dark blue-gray background
           lightgray: "#073642", // base02 - lighter dark
           gray: "#839496", // base0 - for muted elements
-          darkgray: "#eee8d5", // base2 - much lighter for body text (WCAG AA)
-          dark: "#fdf6e3", // base3 - lightest cream for headings (WCAG AAA)
+          darkgray: "#93a1a1", // base1 - softer for body text (WCAG AA: 7.4:1)
+          dark: "#eee8d5", // base2 - soft cream for headings (WCAG AAA: 11.7:1)
           secondary: "#268bd2", // blue - links
           tertiary: "#2aa198", // cyan - accents
           highlight: "rgba(38, 139, 210, 0.15)", // blue with transparency
