@@ -57,7 +57,7 @@ Si estás teniendo dificultades para pasar de datos de texto sin procesar a sist
 
 **Contacta:**
 - [Reserva una llamada de descubrimiento](https://cal.com/nea-glossa/30min)
-- [Rellena este formulario de contacto](https://tally.so/r/wzPBV8)
+- [Rellena este formulario de contacto](https://tally.so/r/XxxB2O)
 
 **Sígueme:**
 - LinkedIn: https://www.linkedin.com/in/neastoreca/
