@@ -7,39 +7,31 @@ tags:
 
 Hi! 👋
 
-I'm **Natalia Elvira Astoreca**, a Computational Linguist and AI Engineer from Madrid helping companies build reliable AI systems for complex text problems.
+I'm **Natalia Elvira Astoreca**, and this is where I share what I've learned about building AI systems that actually work with complex text.
 
-## The Problem I Solve
+## What You'll Find Here
 
-Most teams struggle to bridge the gap from raw text data to production AI systems. They either:
-- Over-engineer with expensive LLMs when simpler approaches would work
-- Skip critical design steps and end up with systems that don't solve the actual business problem
-- Miss edge cases because they don't understand linguistic complexity
+This blog is about the practical side of AI engineering - the decisions, trade-offs, and linguistic complexity that determine whether an AI system succeeds or fails in production.
 
-If you're wondering whether you need LLMs or something simpler, or your text AI project is stuck between requirements and implementation, I can help.
+I write about:
+- **Data curation & annotation** - Building datasets that capture real-world complexity
+- **Architecture decisions** - When to use LLMs, fine-tuned models, or traditional NLP
+- **Linguistic patterns** - The edge cases and structures that make or break text AI
+- **Production challenges** - What actually happens when you deploy these systems
 
-## How I Work
+## Who This Is For
 
-I combine three perspectives that most specialists working alone can't:
+If you're working on AI systems that deal with text - whether you're building them, evaluating them, or trying to understand why they behave the way they do - you might find something useful here.
 
-- **Linguistics** - I spot what makes text complex and identify edge cases that break standard models
-- **Product Management** - I translate business needs into technical specs and speak both languages fluently
-- **ML Engineering** - I build architectures that actually work in production
+The posts assume some technical background, but I try to explain concepts clearly. If something isn't clear, that's on me, not you.
 
-This means I see problems pure engineers miss, define requirements pure linguists can't, and deliver systems pure PMs struggle to scope.
+## A Bit About My Background
 
-## What I Help With
+I come from an unusual path: I started with Ancient Greek linguistics, studying archaic alphabets and dialect variations at Cambridge. That taught me to see language as a system full of patterns, exceptions, and context-dependent meaning.
 
-- **Architecture decisions** - Traditional NLP vs. fine-tuned models vs. LLMs (and when to use each)
-- **End-to-end pipeline design** - From vague requirements to production-ready systems
-- **Evaluation frameworks** - Metrics that actually matter for your business
-- **Data strategy** - Curation, annotation, and quality control for complex text
-- **Cost optimization** - Performance without burning budget on unnecessary LLM calls
+These days, I work on modern text AI systems, but the core challenge is remarkably similar - understanding how language actually works, not how we think it should work.
 
-## Let's Talk
-
-**[Fill in this contact form](https://tally.so/r/wzPBV8)** or **[Book a discovery call](https://cal.com/nea-glossa/30min)**
-
----
+If you want to know more about my work or background, check out the [About me](/en/about) page.
 
 ## Explore
+

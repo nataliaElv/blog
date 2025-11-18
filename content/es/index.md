@@ -7,39 +7,31 @@ tags:
 
 ¡Hola! 👋
 
-Soy **Natalia Elvira Astoreca**, lingüista computacional e ingeniera de IA de Madrid. Ayudo a empresas a construir sistemas de IA confiables para problemas complejos de texto.
+Soy **Natalia Elvira Astoreca**, y este es el lugar donde comparto lo que he aprendido sobre construcción de sistemas de IA que realmente funcionan con texto complejo.
 
-## El Problema que Resuelvo
+## Qué Encontrarás Aquí
 
-La mayoría de los equipos luchan para cerrar la brecha desde datos de texto sin procesar hasta sistemas de IA en producción. O bien:
-- Sobre-ingenian con LLMs costosos cuando enfoques más simples funcionarían
-- Saltan pasos críticos de diseño y terminan con sistemas que no resuelven el problema real del negocio
-- Pierden casos extremos porque no entienden la complejidad lingüística
+Este blog trata sobre el lado práctico de la ingeniería de IA - las decisiones, compromisos y complejidad lingüística que determinan si un sistema de IA tiene éxito o falla en producción.
 
-Si te preguntas si necesitas LLMs o algo más simple, o tu proyecto de IA de texto está atascado entre requisitos e implementación, puedo ayudarte.
+Escribo sobre:
+- **Curación y anotación de datos** - Construir datasets que capturen la complejidad del mundo real
+- **Decisiones de arquitectura** - Cuándo usar LLMs, modelos ajustados o NLP tradicional
+- **Patrones lingüísticos** - Los casos extremos y estructuras que hacen o rompen la IA de texto
+- **Desafíos de producción** - Qué pasa realmente cuando despliegas estos sistemas
 
-## Cómo Trabajo
+## Para Quién Es Esto
 
-Combino tres perspectivas que la mayoría de especialistas trabajando solos no pueden:
+Si trabajas en sistemas de IA que procesan texto - ya sea construyéndolos, evaluándolos, o intentando entender por qué se comportan como lo hacen - puede que encuentres algo útil aquí.
 
-- **Lingüística** - Detecto qué hace complejo al texto e identifico casos extremos que rompen los modelos estándar
-- **Gestión de Producto** - Traduzco necesidades de negocio en especificaciones técnicas y hablo ambos idiomas con fluidez
-- **Ingeniería de ML** - Construyo arquitecturas que realmente funcionan en producción
+Los posts asumen cierta base técnica, pero intento explicar los conceptos claramente. Si algo no está claro, es mi responsabilidad, no tuya.
 
-Esto significa que veo problemas que los ingenieros puros pierden, defino requisitos que los lingüistas puros no pueden, y entrego sistemas que los PMs puros luchan por especificar.
+## Un Poco Sobre Mi Trayectoria
 
-## En Qué Ayudo
+Vengo de un camino inusual: empecé con lingüística griega antigua, estudiando alfabetos arcaicos y variaciones dialectales en Cambridge. Eso me enseñó a ver el lenguaje como un sistema lleno de patrones, excepciones y significado dependiente del contexto.
 
-- **Decisiones arquitectónicas** - NLP tradicional vs. modelos ajustados vs. LLMs (y cuándo usar cada uno)
-- **Diseño de pipelines end-to-end** - Desde requisitos vagos hasta sistemas listos para producción
-- **Marcos de evaluación** - Métricas que realmente importan para tu negocio
-- **Estrategia de datos** - Curación, anotación y control de calidad para texto complejo
-- **Optimización de costes** - Rendimiento sin quemar presupuesto en llamadas innecesarias a LLMs
+Actualmente trabajo en sistemas modernos de IA de texto, pero el desafío central es notablemente similar - entender cómo funciona realmente el lenguaje, no cómo pensamos que debería funcionar.
 
-## Hablemos
-
-**[Rellena este formulario de contacto](https://tally.so/r/wzPBV8)** o **[Reserva una llamada de descubrimiento](https://cal.com/nea-glossa/30min)**
-
----
+Si quieres saber más sobre mi trabajo o trayectoria, visita la página [Sobre mí](/es/about).
 
 ## Explora
+
