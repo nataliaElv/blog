@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Fraunces",
+        body: "Inter",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fdf6e3", // base3 - cream background
+          lightgray: "#eee8d5", // base2 - lighter cream
+          gray: "#657b83", // base00 - for muted elements
+          darkgray: "#073642", // base02 - darker for body text (WCAG AA)
+          dark: "#002b36", // base03 - darkest for headings (WCAG AAA)
+          secondary: "#268bd2", // blue - links
+          tertiary: "#2aa198", // cyan - accents
+          highlight: "rgba(38, 139, 210, 0.15)", // blue with transparency
+          textHighlight: "#b5890088", // yellow with transparency
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#002b36", // base03 - dark blue-gray background
+          lightgray: "#073642", // base02 - lighter dark
+          gray: "#839496", // base0 - for muted elements
+          darkgray: "#eee8d5", // base2 - much lighter for body text (WCAG AA)
+          dark: "#fdf6e3", // base3 - lightest cream for headings (WCAG AAA)
+          secondary: "#268bd2", // blue - links
+          tertiary: "#2aa198", // cyan - accents
+          highlight: "rgba(38, 139, 210, 0.15)", // blue with transparency
+          textHighlight: "#b5890088", // yellow with transparency
         },
       },
     },
