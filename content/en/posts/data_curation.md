@@ -19,7 +19,7 @@ Data annotation consists in adding notes to your dataset. Depending on the use c
 
 If you are doing annotations as part of an AI/ML project, you can think of these annotations as examples of the expected output of a model, given a specific input.
 
-To learn more about annotations you can check this page: 📚 [[Resources for data annotation]].
+To learn more about annotations you can check this page: 📚 [Resources for data annotation](/en/posts/annotation_resources).
 
 ## What is the difference between data curation and data annotation?
 

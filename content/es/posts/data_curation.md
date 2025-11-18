@@ -20,7 +20,7 @@ La anotación de datos consiste en agregar notas a tu conjunto de datos. Dependi
 
 Si estás realizando anotaciones como parte de un proyecto de inteligencia artificial o aprendizaje automático, puedes considerar estas anotaciones como ejemplos de la salida esperada de un modelo dada una entrada específica.
 
-Para obtener más información sobre anotaciones, puedes consultar esta página: 📚 [[Recursos sobre anotación de datos]].
+Para obtener más información sobre anotaciones, puedes consultar esta página: 📚 [Recursos sobre anotación de datos](/es/posts/annotation_resources).
 
 ## **¿Cuál es la diferencia entre curación de datos y anotación de datos?**
 
