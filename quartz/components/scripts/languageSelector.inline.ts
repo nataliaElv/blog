@@ -1,15 +1,29 @@
+// Get the base path from the current URL (e.g., "/blog" for GitHub Pages)
+const getBasePath = (): string => {
+  const path = window.location.pathname
+  // Check if path starts with /blog/ or is /blog
+  if (path.startsWith("/blog/") || path === "/blog") {
+    return "/blog"
+  }
+  return ""
+}
+
 // Detect current language from URL path
 const getCurrentLanguage = (): string => {
+  const basePath = getBasePath()
   const path = window.location.pathname
-  if (path.startsWith("/en/") || path === "/en") return "en"
-  if (path.startsWith("/es/") || path === "/es") return "es"
+  const pathAfterBase = basePath ? path.substring(basePath.length) : path
+
+  if (pathAfterBase.startsWith("/en/") || pathAfterBase === "/en") return "en"
+  if (pathAfterBase.startsWith("/es/") || pathAfterBase === "/es") return "es"
   // Root path has no language prefix
-  if (path === "/" || path === "/index") return ""
+  if (pathAfterBase === "/" || pathAfterBase === "" || pathAfterBase === "/index") return ""
   return "" // default - no language
 }
 
 // Get the corresponding path in another language
 const getTranslatedPath = (targetLang: string): string => {
+  const basePath = getBasePath()
   const currentPath = window.location.pathname
   const currentLang = getCurrentLanguage()
 
@@ -18,25 +32,27 @@ const getTranslatedPath = (targetLang: string): string => {
     return currentPath
   }
 
+  const pathAfterBase = basePath ? currentPath.substring(basePath.length) : currentPath
+
   // Handle root page
-  if (currentPath === "/" || currentPath === "/index") {
-    return `/${targetLang}/`
+  if (pathAfterBase === "/" || pathAfterBase === "" || pathAfterBase === "/index") {
+    return `${basePath}/${targetLang}/`
   }
 
   // Remove current language prefix
-  let pathWithoutLang = currentPath
-  if (currentPath.startsWith(`/${currentLang}/`)) {
-    pathWithoutLang = currentPath.substring(currentLang.length + 1)
-  } else if (currentPath === `/${currentLang}`) {
+  let pathWithoutLang = pathAfterBase
+  if (currentLang && pathAfterBase.startsWith(`/${currentLang}/`)) {
+    pathWithoutLang = pathAfterBase.substring(currentLang.length + 1)
+  } else if (currentLang && pathAfterBase === `/${currentLang}`) {
     pathWithoutLang = "/"
   }
 
   // Add new language prefix
   if (pathWithoutLang === "/" || pathWithoutLang === "") {
-    return `/${targetLang}/`
+    return `${basePath}/${targetLang}/`
   }
 
-  return `/${targetLang}${pathWithoutLang}`
+  return `${basePath}/${targetLang}${pathWithoutLang}`
 }
 
 document.addEventListener("nav", () => {
