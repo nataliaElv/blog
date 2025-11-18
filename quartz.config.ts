@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fdf6e3", // base3 - cream background
-          lightgray: "#eee8d5", // base2 - lighter cream
-          gray: "#657b83", // base00 - for muted elements
-          darkgray: "#073642", // base02 - darker for body text (WCAG AA)
-          dark: "#002b36", // base03 - darkest for headings (WCAG AAA)
-          secondary: "#1c7098", // darker blue - links (WCAG AA compliant: 4.5:1 contrast)
-          tertiary: "#2aa198", // cyan - accents
-          highlight: "rgba(28, 112, 152, 0.15)", // darker blue with transparency
-          textHighlight: "#b5890088", // yellow with transparency
+          light: "#f8f6f2", // soft warm white with slight cream undertone
+          lightgray: "#efeae0", // light warm gray, like natural linen
+          gray: "#9a8f7e", // warm taupe - muted elements
+          darkgray: "#3d3428", // deep warm brown - body text (WCAG AA: 10.5:1)
+          dark: "#1b1612", // almost black with warm undertone - headings (WCAG AAA: 16.8:1)
+          secondary: "#3a6b68", // dark teal-green - links (WCAG AA: 5.2:1)
+          tertiary: "#b85c3a", // warm terracotta/rust - accents
+          highlight: "rgba(58, 107, 104, 0.15)", // teal-green transparency
+          textHighlight: "#c9975488", // soft amber transparency
         },
         darkMode: {
-          light: "#002b36", // base03 - dark blue-gray background
-          lightgray: "#073642", // base02 - lighter dark
-          gray: "#839496", // base0 - for muted elements
-          darkgray: "#93a1a1", // base1 - softer for body text (WCAG AA: 7.4:1)
-          dark: "#eee8d5", // base2 - soft cream for headings (WCAG AAA: 11.7:1)
-          secondary: "#268bd2", // blue - links
-          tertiary: "#2aa198", // cyan - accents
-          highlight: "rgba(38, 139, 210, 0.15)", // blue with transparency
-          textHighlight: "#b5890088", // yellow with transparency
+          light: "#151312", // deep charcoal with slight green undertone
+          lightgray: "#252220", // dark warm gray
+          gray: "#8a7d6f", // warm stone - muted elements
+          darkgray: "#d4cbbf", // warm sand - body text (WCAG AA: 9.8:1)
+          dark: "#f2ebe0", // soft cream - headings (WCAG AAA: 13.5:1)
+          secondary: "#5fa09c", // lighter teal-green - links (WCAG AA: 6.5:1)
+          tertiary: "#d97854", // brighter terracotta - accents
+          highlight: "rgba(95, 160, 156, 0.15)", // teal-green transparency
+          textHighlight: "#c9975488", // soft amber transparency
         },
       },
     },
