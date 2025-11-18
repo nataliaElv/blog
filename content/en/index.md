@@ -9,30 +9,34 @@ Hi! 👋
 
 I'm **Natalia Elvira Astoreca**, a Computational Linguist and AI Engineer from Madrid helping companies build reliable AI systems for complex text problems.
 
-## What I Do
+## The Problem I Solve
 
-I combine three perspectives to solve text AI challenges:
+Most teams struggle to bridge the gap from raw text data to production AI systems. They either:
+- Over-engineer with expensive LLMs when simpler approaches would work
+- Skip critical design steps and end up with systems that don't solve the actual business problem
+- Miss edge cases because they don't understand linguistic complexity
 
-- **Linguistics** - Understanding what makes text complex and identifying edge cases that break standard models
-- **Product Management** - Translating business needs into technical specs
-- **ML Engineering** - Building architectures that actually work in production
+If you're wondering whether you need LLMs or something simpler, or your text AI project is stuck between requirements and implementation, I can help.
 
-**I help with:**
-- Designing complete AI pipelines from requirements to production
-- Making smart architecture decisions (traditional NLP vs. fine-tuned models vs. LLMs)
-- Turning vague requirements into concrete technical specifications
-- Building evaluation frameworks that matter for your business
-- Optimizing for both performance and cost
+## How I Work
 
-## Background
+I combine three perspectives that most specialists working alone can't:
 
-Before working in AI, I studied Classics and completed a PhD at the University of Cambridge on Ancient Greek linguistics, specifically on the linguistic comparison of archaic Greek alphabets.
+- **Linguistics** - I spot what makes text complex and identify edge cases that break standard models
+- **Product Management** - I translate business needs into technical specs and speak both languages fluently
+- **ML Engineering** - I build architectures that actually work in production
 
-I've since built a career bridging linguistics, product management, and ML engineering. I've designed and built successful AI applications for complex text extraction problems in highly regulated industries like fintech and healthtech. Currently, I work independently with various companies, including The Newsroom.
+This means I see problems pure engineers miss, define requirements pure linguists can't, and deliver systems pure PMs struggle to scope.
 
-## Work with Me
+## What I Help With
 
-If you're struggling to bridge the gap from raw text data to production AI systems, or wondering whether you need LLMs or something simpler, let's talk.
+- **Architecture decisions** - Traditional NLP vs. fine-tuned models vs. LLMs (and when to use each)
+- **End-to-end pipeline design** - From vague requirements to production-ready systems
+- **Evaluation frameworks** - Metrics that actually matter for your business
+- **Data strategy** - Curation, annotation, and quality control for complex text
+- **Cost optimization** - Performance without burning budget on unnecessary LLM calls
+
+## Let's Talk
 
 **[Fill in this contact form](https://tally.so/r/wzPBV8)** or **[Book a discovery call](https://cal.com/nea-glossa/30min)**
 

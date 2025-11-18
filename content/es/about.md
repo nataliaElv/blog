@@ -7,47 +7,63 @@ tags:
 
 ¡Hola! 👋  
 
-Soy Natalia, ingeniera de IA de Madrid (España). Trabajo de forma independiente ayudando a empresas a construir sistemas de IA confiables para problemas complejos de texto. Me apasionan las lenguas y construir datos de alta calidad para IA.
+Soy Natalia, ingeniera de IA de Madrid (España) que accidentalmente encontró la intersección perfecta entre lenguas antiguas e IA moderna.
 
-## Cómo puedo ayudar
+## El Viaje desde Lenguas Muertas a IA
 
-Trabajo con empresas que tienen dificultades para cerrar la brecha desde datos de texto sin procesar hasta sistemas de IA en producción. La mayoría de los equipos o sobre-ingenian con LLMs costosos cuando enfoques más simples funcionarían, o saltan pasos críticos de diseño y terminan con sistemas que no resuelven el problema real del negocio.
+Mi carrera comenzó en un lugar inesperado: estudiando alfabetos griegos antiguos en la Universidad de Cambridge. Pasé años analizando cómo evolucionaron los sistemas de escritura griegos arcaicos, comparando patrones lingüísticos entre dialectos, y reconstruyendo cómo la gente realmente escribía y hablaba hace miles de años.
 
-**Ayudo con:**
-- Diseñar pipelines de IA completos desde requisitos hasta producción
-- Tomar decisiones arquitectónicas inteligentes (NLP tradicional vs. modelos ajustados vs. LLMs)
-- Convertir requisitos vagos en especificaciones técnicas concretas
-- Construir marcos de evaluación que importan para tu negocio
-- Optimizar tanto el rendimiento como el coste
+Ese trabajo me enseñó algo crucial: el lenguaje es desordenado, lleno de casos extremos, y constantemente en evolución. Necesitas análisis sistemático combinado con reconocimiento profundo de patrones para darle sentido.
 
-**Mi enfoque combina tres perspectivas:**
-- **Lingüística** - Entiendo qué hace complejo al texto e identifico casos extremos que rompen los modelos estándar
-- **Gestión de Producto** - Traduzco necesidades de negocio en especificaciones técnicas y hablo ambos idiomas con fluidez
-- **Ingeniería de ML** - Construyo arquitecturas que realmente funcionan en producción
+Cuando descubrí la lingüística computacional y la IA, me di cuenta de que era el mismo desafío - solo que con texto moderno y modelos de machine learning en lugar de inscripciones antiguas. Las habilidades se transferían perfectamente: detectar patrones, identificar casos extremos, entender por qué los enfoques estándar fallan en lenguaje complejo.
 
-Esta combinación significa que puedo ver problemas que los ingenieros puros pierden, definir requisitos que los lingüistas puros no pueden, y entregar sistemas que los PMs puros luchan por especificar. A veces la solución correcta es un LLM. A menudo no lo es.
+## Por Qué Funciona Esta Combinación
 
-Si estás interesada en trabajar juntos, puedes [reservar una llamada de descubrimiento](https://cal.com/nea-glossa/30min) o [rellenar este formulario de contacto](https://tally.so/r/wzPBV8).
+La transición de Clásicas a IA me dio una perspectiva única. La mayoría de ingenieros de ML construyen sistemas sin comprensión profunda del lenguaje. La mayoría de lingüistas entienden el lenguaje pero no pueden construir sistemas en producción. Yo hago de puente entre ambos mundos, y añadí pensamiento de producto para traducir entre necesidades de negocio y realidad técnica.
 
-## Trayectoria
+Esto no es solo teoría. He diseñado y construido aplicaciones de IA exitosas para extracción de texto complejo en fintech y healthtech - industrias donde equivocarse con el texto tiene consecuencias reales. Actualmente trabajo de forma independiente ayudando a empresas, como [The Newsroom](http://thenewsroom.ai/), a navegar la brecha entre "tenemos datos de texto" y "tenemos un sistema de IA funcionando."
 
-Antes de comenzar mi viaje en IA, estudié Clásicas e hice un doctorado en la Universidad de Cambridge sobre lingüística griega antigua, específicamente sobre la comparación lingüística de alfabetos griegos arcaicos. Esta formación me enseñó a ver patrones y complejidad en el lenguaje que los enfoques puramente de ingeniería a menudo pierden.
+## Mi Enfoque hacia la IA
 
-Desde entonces he construido una carrera que une tres mundos: lingüística, gestión de producto e ingeniería de ML. He diseñado y construido aplicaciones de IA exitosas para problemas complejos de extracción de texto en industrias altamente reguladas como fintech y healthtech, combinando comprensión profunda del lenguaje con pensamiento de producto e implementación técnica. Actualmente trabajo de forma independiente con varias empresas, incluyendo The Newsroom, ayudándolas a diseñar e implementar sistemas de IA confiables.
+Creo que la mayoría de proyectos de IA fallan no por la tecnología, sino por desalineación entre necesidades de negocio e implementación técnica. Los equipos saltan a LLMs cuando no los necesitan, o se saltan el trabajo duro de entender qué hace complejo su texto.
 
-## Personal
+Mi enfoque es práctico:
+1. Entender el problema real de negocio (no la solución técnica asumida)
+2. Analizar qué hace difícil el texto
+3. Elegir la arquitectura más simple que funcionará
+4. Construir evaluación que mida lo que importa
+5. Optimizar tanto rendimiento como coste
 
-En mi tiempo libre, me gusta jugar a videojuegos. Mis favoritos son: "Papers, Please", "Outer Wilds" y "Stardew Valley". También hago ganchillo y punto para relajarme.
+A veces la respuesta es un LLM de vanguardia. A menudo no lo es. La clave es saber la diferencia.
 
-En este blog, comparto conocimiento práctico sobre curación y anotación de datos, decisiones arquitectónicas de IA, y la complejidad lingüística que hace o rompe los sistemas de IA.
+## Sobre Qué Escribo
 
----
-**Sígueme en redes sociales:**
-- Bluesky: https://bsky.app/profile/nataliaelv.bsky.social
-- X: https://x.com/natalakiou
+Este blog es donde comparto lo que he aprendido sobre:
+- **Curación y anotación de datos** - Cómo construir datasets de alta calidad para texto complejo
+- **Decisiones de arquitectura de IA** - Cuándo usar LLMs, modelos ajustados, o NLP tradicional
+- **Complejidad lingüística** - Los casos extremos y patrones que hacen o rompen sistemas de IA
+- **Ingeniería práctica de IA** - Desafíos y soluciones reales de producción
+
+## Más Allá del Trabajo
+
+Cuando no estoy pensando en texto e IA, normalmente estoy:
+- Jugando a videojuegos (favoritos actuales: "Papers, Please", "Outer Wilds", y "Stardew Valley")
+- Haciendo ganchillo o punto para balancear todo el tiempo de pantalla
+- Pasando tiempo con mi familia
+
+## Conectemos
+
+Siempre me interesa hablar con gente trabajando en problemas complejos de texto, ya sea que busques ayuda con un proyecto o solo quieras intercambiar ideas.
+
+**Consultas de trabajo:**
+- [Reserva una llamada de descubrimiento](https://cal.com/nea-glossa/30min)
+- [Rellena este formulario de contacto](https://tally.so/r/wzPBV8)
+
+**Sígueme:**
 - LinkedIn: https://www.linkedin.com/in/neastoreca/
+- X: https://x.com/natalakiou
 
-**Sigue mi trabajo:**
+**Mi trabajo:**
 - Hugging Face: https://huggingface.co/nataliaElv
 - Github: https://github.com/nataliaElv
 - Knowledge Commons: https://hcommons.org/members/neastoreca/

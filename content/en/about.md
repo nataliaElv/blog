@@ -6,47 +6,64 @@ tags:
 ---
 
 Hi! 👋  
-I'm Natalia, an AI Engineer from Madrid (Spain). I work independently helping companies build reliable AI systems for complex text problems. I'm passionate about languages and building high-quality data for AI.
 
-## How I can help
+I'm Natalia, an AI Engineer from Madrid (Spain) who accidentally found the perfect intersection between ancient languages and modern AI.
 
-I work with companies that are struggling to bridge the gap from raw text data to production AI systems. Most teams either over-engineer with expensive LLMs when simpler approaches would work, or they skip critical design steps and end up with systems that don't solve the actual business problem.
+## The Journey from Dead Languages to AI
 
-**I help with:**
-- Designing complete AI pipelines from requirements to production
-- Making smart architecture decisions (traditional NLP vs. fine-tuned models vs. LLMs)
-- Turning vague requirements into concrete technical specifications
-- Building evaluation frameworks that matter for your business
-- Optimizing for both performance and cost
+My career started in an unexpected place: studying Ancient Greek alphabets at the University of Cambridge. I spent years analyzing how archaic Greek writing systems evolved, comparing linguistic patterns across dialects, and reconstructing how people actually wrote and spoke thousands of years ago.
 
-**My approach combines three perspectives:**
-- **Linguistics** - I understand what makes text complex and identify edge cases that break standard models
-- **Product Management** - I translate business needs into technical specs and speak both languages fluently
-- **ML Engineering** - I build architectures that actually work in production
+That work taught me something crucial: language is messy, full of edge cases, and constantly evolving. You need systematic analysis combined with deep pattern recognition to make sense of it.
 
-This combination means I can see problems that pure engineers miss, define requirements that pure linguists can't, and deliver systems that pure PMs struggle to scope. Sometimes the right solution is an LLM. Often it's not.
+When I discovered computational linguistics and AI, I realized this was the same challenge - just with modern text and machine learning models instead of ancient inscriptions. The skills transferred perfectly: spotting patterns, identifying edge cases, understanding why standard approaches fail on complex language.
 
-If you're interested in working together, you can [book a discovery call](https://cal.com/nea-glossa/30min) or [fill in this contact form](https://tally.so/r/wzPBV8).
+## Why This Combination Works
 
-## Background
+The transition from Classics to AI gave me a unique perspective. Most ML engineers build systems without deep language understanding. Most linguists understand language but can't build production systems. I bridge both worlds, and I added product thinking to translate between business needs and technical reality.
 
-Before starting my journey in AI, I studied Classics and did a PhD at the University of Cambridge on Ancient Greek linguistics, specifically on the linguistic comparison of archaic Greek alphabets. This background taught me to see patterns and complexity in language that pure engineering approaches often miss.
+This isn't just theory. I've designed and built successful AI applications for complex text extraction in fintech and healthtech - industries where getting text wrong has real consequences. Currently, I work independently helping companies, like [The Newsroom](http://thenewsroom.ai/), navigate the gap between "we have text data" and "we have a working AI system."
 
-I've since built a career that bridges three worlds: linguistics, product management, and ML engineering. I've designed and built successful AI applications for complex text extraction problems in highly regulated industries like fintech and healthtech, combining deep language understanding with product thinking and technical implementation. Currently, I work independently with various companies, including The Newsroom, helping them design and implement reliable AI systems.
+## My Approach to AI
 
-## Personal
+I believe most AI projects fail not because of technology, but because of misalignment between business needs and technical implementation. Teams jump to LLMs when they don't need them, or they skip the hard work of understanding what makes their text complex.
 
-In my free time, I like playing videogames. My favourites are: "Papers, Please", "Outer Wilds" and "Stardew Valley". I also crochet and knit to relax.
+My approach is practical:
+1. Understand the actual business problem (not the assumed technical solution)
+2. Analyze what makes the text difficult
+3. Choose the simplest architecture that will work
+4. Build evaluation that measures what matters
+5. Optimize for both performance and cost
 
-In this blog, I share practical knowledge about data curation & annotation, AI architecture decisions, and the linguistic complexity that makes or breaks AI systems.
+Sometimes the answer is a cutting-edge LLM. Often it's not. The key is knowing the difference.
 
----
-**Follow me on social media:**
-- Bluesky: https://bsky.app/profile/nataliaelv.bsky.social
-- X: https://x.com/natalakiou
+## What I Write About
+
+This blog is where I share what I've learned about:
+- **Data curation & annotation** - How to build high-quality datasets for complex text
+- **AI architecture decisions** - When to use LLMs, fine-tuned models, or traditional NLP
+- **Linguistic complexity** - The edge cases and patterns that make or break AI systems
+- **Practical AI engineering** - Real production challenges and solutions
+
+## Beyond Work
+
+When I'm not thinking about text and AI, I'm usually:
+- Playing videogames (current favorites: "Papers, Please", "Outer Wilds", and "Stardew Valley")
+- Crocheting or knitting to balance out all the screen time
+- Spending time with family
+
+## Let's Connect
+
+I'm always interested in talking with people working on complex text problems, whether you're looking for help with a project or just want to exchange ideas.
+
+**Work inquiries:**
+- [Book a discovery call](https://cal.com/nea-glossa/30min)
+- [Fill in this contact form](https://tally.so/r/wzPBV8)
+
+**Follow me:**
 - LinkedIn: https://www.linkedin.com/in/neastoreca/
+- X: https://x.com/natalakiou
 
-**Follow my work:**
+**My work:**
 - Hugging Face: https://huggingface.co/nataliaElv
 - Github: https://github.com/nataliaElv
 - Knowledge Commons: https://hcommons.org/members/neastoreca/

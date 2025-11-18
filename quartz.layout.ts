@@ -9,7 +9,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "Contact Me": "https://tally.so/r/wzPBV8",
-      Bluesky: "https://bsky.app/profile/nataliaelv.bsky.social",
       X: "https://x.com/natalakiou",
       LinkedIn: "https://www.linkedin.com/in/neastoreca/",
       "Hugging Face": "Hugging Face: https://huggingface.co/nataliaElv",
