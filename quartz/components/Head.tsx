@@ -28,7 +28,9 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = joinSegments(baseDir, "static/og-image.png")
-    const usesCustomOgImage = ctx.allFiles.some((f) => f.emit?.includes(CustomOgImagesEmitterName))
+    const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
+      (emitter) => emitter.name === CustomOgImagesEmitterName,
+    )
     const ogImageDefaultPath = ogImagePath
     const socialUrl = new URL(fileData.slug ?? "/", url).toString()
 
