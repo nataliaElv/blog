@@ -34,9 +34,9 @@ const config: QuartzConfig = {
           gray: "#657b83", // base00 - for muted elements
           darkgray: "#073642", // base02 - darker for body text (WCAG AA)
           dark: "#002b36", // base03 - darkest for headings (WCAG AAA)
-          secondary: "#268bd2", // blue - links
+          secondary: "#1c7098", // darker blue - links (WCAG AA compliant: 4.5:1 contrast)
           tertiary: "#2aa198", // cyan - accents
-          highlight: "rgba(38, 139, 210, 0.15)", // blue with transparency
+          highlight: "rgba(28, 112, 152, 0.15)", // darker blue with transparency
           textHighlight: "#b5890088", // yellow with transparency
         },
         darkMode: {

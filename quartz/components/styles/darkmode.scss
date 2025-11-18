@@ -1,20 +1,27 @@
 .darkmode {
   cursor: pointer;
-  padding: 0;
+  padding: 12px;
   position: relative;
   background: none;
   border: none;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   margin: 0;
   text-align: inherit;
   flex-shrink: 0;
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 
   & svg {
     position: absolute;
     width: 20px;
     height: 20px;
     top: calc(50% - 10px);
+    left: calc(50% - 10px);
     fill: var(--darkgray);
     transition: opacity 0.1s ease;
   }

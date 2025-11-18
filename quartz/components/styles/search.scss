@@ -9,7 +9,7 @@
 
   & > .search-button {
     background-color: transparent;
-    border: 1px var(--lightgray) solid;
+    border: 1px var(--gray) solid;
     border-radius: 4px;
     font-family: inherit;
     font-size: inherit;
@@ -83,10 +83,11 @@
         font-family: var(--bodyFont);
         color: var(--dark);
         font-size: 1.1em;
-        border: 1px solid var(--lightgray);
+        border: 1px solid var(--gray);
 
         &:focus {
-          outline: none;
+          outline: 2px solid var(--secondary);
+          outline-offset: 2px;
         }
       }
 
