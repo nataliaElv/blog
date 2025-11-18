@@ -22,7 +22,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
     // Component.MobileOnly(Component.Spacer()),
-    Component.LanguageAwarePageTitle(),
+    Component.PageTitle(),
     Component.Flex({
       components: [
         { Component: Component.Darkmode() },
@@ -45,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
-    Component.LanguageAwarePageTitle(),
+    Component.PageTitle(),
     Component.Flex({
       components: [
         { Component: Component.Darkmode() },

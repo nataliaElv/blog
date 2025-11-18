@@ -12,11 +12,16 @@ const LanguageAwarePageTitle: QuartzComponent = ({
   // Detect current language from page slug
   const currentSlug = fileData.slug || ""
   const pathSegments = currentSlug.split("/").filter(Boolean)
-  let homeLink = "/"
+
+  // Get the base path from config (handles GitHub Pages subpaths like /blog/)
+  const baseUrl = cfg?.baseUrl || ""
+  const basePath = baseUrl.includes("/") ? "/" + baseUrl.split("/").slice(1).join("/") : ""
+
+  let homeLink = basePath || "/"
 
   // If we're in a language subfolder, link to that language's home
   if (pathSegments.length > 0 && (pathSegments[0] === "en" || pathSegments[0] === "es")) {
-    homeLink = `/${pathSegments[0]}/`
+    homeLink = `${basePath}/${pathSegments[0]}/`
   }
 
   return (
