@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz", // TODO: Update this to your actual domain
+    baseUrl: "nataliaelv.github.io/blog",
     ignorePatterns: ["private", "templates", ".obsidian", "legacy", "Ideas.md"],
     defaultDateType: "modified",
     theme: {
