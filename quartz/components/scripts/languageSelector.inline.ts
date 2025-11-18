@@ -3,9 +3,9 @@ const getCurrentLanguage = (): string => {
   const path = window.location.pathname
   if (path.startsWith("/en/") || path === "/en") return "en"
   if (path.startsWith("/es/") || path === "/es") return "es"
-  // Root path is English by default
-  if (path === "/" || path === "/index") return "en"
-  return "en" // default
+  // Root path has no language prefix
+  if (path === "/" || path === "/index") return ""
+  return "" // default - no language
 }
 
 // Get the corresponding path in another language
@@ -20,11 +20,7 @@ const getTranslatedPath = (targetLang: string): string => {
 
   // Handle root page
   if (currentPath === "/" || currentPath === "/index") {
-    if (targetLang === "en") {
-      return "/"
-    } else {
-      return `/${targetLang}/`
-    }
+    return `/${targetLang}/`
   }
 
   // Remove current language prefix
@@ -37,11 +33,7 @@ const getTranslatedPath = (targetLang: string): string => {
 
   // Add new language prefix
   if (pathWithoutLang === "/" || pathWithoutLang === "") {
-    if (targetLang === "en") {
-      return "/"
-    } else {
-      return `/${targetLang}/`
-    }
+    return `/${targetLang}/`
   }
 
   return `/${targetLang}${pathWithoutLang}`
