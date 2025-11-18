@@ -1,10 +1,21 @@
-// Get the base path from the current URL (e.g., "/blog" for GitHub Pages)
+// Get the base path from the current URL
 const getBasePath = (): string => {
-  const path = window.location.pathname
-  // Check if path starts with /blog/ or is /blog
-  if (path.startsWith("/blog/") || path === "/blog") {
-    return "/blog"
+  // Check if we're on GitHub Pages by looking at hostname
+  if (window.location.hostname.includes("github.io")) {
+    const pathParts = window.location.pathname.split("/").filter((p) => p)
+    // First part after domain on github.io is typically the repo name
+    // Make sure it's not a language code or common page name
+    if (
+      pathParts.length > 0 &&
+      pathParts[0] !== "en" &&
+      pathParts[0] !== "es" &&
+      pathParts[0] !== "index"
+    ) {
+      return `/${pathParts[0]}`
+    }
   }
+
+  // For localhost and other domains, no base path
   return ""
 }
 
@@ -36,7 +47,7 @@ const getTranslatedPath = (targetLang: string): string => {
 
   // Handle root page
   if (pathAfterBase === "/" || pathAfterBase === "" || pathAfterBase === "/index") {
-    return `${basePath}/${targetLang}/`
+    return basePath ? `${basePath}/${targetLang}/` : `/${targetLang}/`
   }
 
   // Remove current language prefix
@@ -49,10 +60,12 @@ const getTranslatedPath = (targetLang: string): string => {
 
   // Add new language prefix
   if (pathWithoutLang === "/" || pathWithoutLang === "") {
-    return `${basePath}/${targetLang}/`
+    return basePath ? `${basePath}/${targetLang}/` : `/${targetLang}/`
   }
 
-  return `${basePath}/${targetLang}${pathWithoutLang}`
+  return basePath
+    ? `${basePath}/${targetLang}${pathWithoutLang}`
+    : `/${targetLang}${pathWithoutLang}`
 }
 
 document.addEventListener("nav", () => {
