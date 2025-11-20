@@ -8,10 +8,12 @@ tags:
   - AI deployments
   - Public AI
   - ALIA
+  - EuroHPC
+  - The Newsroom
   - en
 ---
 
-![Header image](/images/growtika-nGoCBxiaRO0-unsplash.jpg)
+<img src="/images/growtika-nGoCBxiaRO0-unsplash.jpg" alt="Header image" width="800" height="400" style="max-width: 100%; height: auto;">
 
 *Photo by [Growtika](https://unsplash.com/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
@@ -25,7 +27,7 @@ Having these resources available to anyone is definitely a huge step forward to 
 
 Here's what caught my attention during the forum: **model deployments are now the primary bottleneck for anyone offering AI at scale**, specially when we're dealing with synchronous inference.
 
-AI public infrastructure has focused on the training phase, offering thousands of node-hours in their supercomputers through their [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en) programe, that allows researchers and companies to train and fine-tune huge models and also to process big amounts of data. 
+AI public infrastructure has focused on the training phase, offering thousands of node-hours in their supercomputers through their [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en) programe, that allows researchers and companies to train and fine-tune huge models and also to process big amounts of data. I've been able to use the Portuguese and Italian supercomputers myself thanks to this initiative, as part of my work in [The Newsroom](https://www.thenewsroom.ai/en). 
 
 But that's only half of the story. If you want to build a service on top of your model, you'll need to deploy it, whether in a local server or to the cloud, so users can actually use it without the need to send asynchronous batch jobs. This is where the technical difficulties and huge costs start piling up.
 

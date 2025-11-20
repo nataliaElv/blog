@@ -1,17 +1,18 @@
 ---
 title: Algunas reflexiones sobre ALIA y el Foro de IA Pública
 draft: false
-banner: /images/growtika-nGoCBxiaRO0-unsplash.jpg
+# banner: /images/growtika-nGoCBxiaRO0-unsplash.jpg
 tags:
-  - AI
+  - IA
   - ingeniería de IA
   - despliegues de IA
   - IA pública
   - ALIA
+  - EuroHPC
+  - The Newsroom
   - es
 ---
-
-![Imagen de cabecera del artículo](/images/growtika-nGoCBxiaRO0-unsplash.jpg)
+<img src="/images/growtika-nGoCBxiaRO0-unsplash.jpg" alt="Imagen de cabecera del artículo" width="800" height="400" style="max-width: 100%; height: auto;">
 
 *Foto de [Growtika](https://unsplash.com/es/@growtika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) en [Unsplash](https://unsplash.com/es/fotos/una-imagen-abstracta-de-una-esfera-con-puntos-y-lineas-nGoCBxiaRO0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
@@ -25,7 +26,7 @@ Tener estos recursos disponibles para cualquiera es definitivamente un gran paso
 
 Esto es lo que captó mi atención durante el foro: **los despliegues de modelos son ahora el principal cuello de botella para cualquiera que ofrezca IA a escala**, especialmente cuando estamos lidiando con inferencia síncrona.
 
-La infraestructura pública de IA se ha centrado en la fase de entrenamiento, ofreciendo miles de horas-nodo en sus supercomputadores a través de su programa [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en), que permite a investigadores y empresas entrenar y ajustar modelos enormes y también procesar grandes cantidades de datos.
+La infraestructura pública de IA se ha centrado en la fase de entrenamiento, ofreciendo miles de horas-nodo en sus supercomputadores a través de su programa [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en), que permite a investigadores y empresas entrenar y ajustar modelos enormes y también procesar grandes cantidades de datos. Yo misma he podido usar los supercomputadores portugués e italiano gracias a esta iniciativa, como parte de mi trabajo en [The Newsroom](https://www.thenewsroom.ai/en).
 
 Pero eso es solo la mitad de la historia. Si quieres construir un servicio encima de tu modelo, necesitarás desplegarlo, ya sea en un servidor local o en la nube, para que los usuarios puedan realmente usarlo sin necesidad de enviar trabajos batch asíncronos. Aquí es donde empiezan a acumularse las dificultades técnicas y los costes enormes.
 
