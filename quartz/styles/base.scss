@@ -215,7 +215,7 @@ a {
     }
 
     p > strong {
-      color: var(--dark);
+      color: var(--darkgray); /* Use body text color for emphasis */
     }
   }
 
