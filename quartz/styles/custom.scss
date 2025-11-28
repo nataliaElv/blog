@@ -180,9 +180,10 @@ strong {
 
 /* Buttons */
 .btn-primary,
-button.primary {
+button.primary,
+a.btn-primary {
   background-color: var(--secondary);
-  color: var(--light);
+  color: var(--light) !important; /* Override link color */
   font-family: var(--bodyFont);
   font-weight: var(--weight-semibold);
   font-size: 1rem;
@@ -191,13 +192,15 @@ button.primary {
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all 0.2s ease;
-  text-decoration: none;
+  text-decoration: none !important; /* Override link underline */
   display: inline-block;
+  margin: var(--spacing-lg) var(--spacing-sm); /* Add spacing around buttons */
 
   &:hover {
     filter: brightness(1.1);
     box-shadow: var(--shadow-hover);
     transform: translateY(-1px);
+    color: var(--light) !important; /* Keep light color on hover, don't turn terracotta */
   }
 
   &:active {
@@ -212,9 +215,10 @@ button.primary {
 }
 
 .btn-secondary,
-button.secondary {
+button.secondary,
+a.btn-secondary {
   background-color: transparent;
-  color: var(--tertiary);
+  color: var(--tertiary) !important; /* Override link color */
   font-family: var(--bodyFont);
   font-weight: var(--weight-semibold);
   font-size: 1rem;
@@ -223,11 +227,48 @@ button.secondary {
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all 0.2s ease;
-  text-decoration: none;
+  text-decoration: none !important; /* Override link underline */
   display: inline-block;
+  margin: var(--spacing-lg) var(--spacing-sm); /* Add spacing around buttons */
 
   &:hover {
     background-color: rgba(196, 95, 71, 0.1);
+    color: var(--tertiary) !important; /* Keep terracotta color on hover */
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-focus);
+  }
+}
+
+.btn-terracotta,
+button.terracotta,
+a.btn-terracotta {
+  background-color: var(--tertiary);
+  color: var(--light) !important; /* White text on terracotta */
+  font-family: var(--bodyFont);
+  font-weight: var(--weight-semibold);
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+  display: inline-block;
+  margin: var(--spacing-lg) var(--spacing-sm);
+
+  &:hover {
+    filter: brightness(1.1);
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-1px);
+    color: var(--light) !important;
+  }
+
+  &:active {
+    filter: brightness(0.95);
+    transform: translateY(0);
   }
 
   &:focus-visible {
@@ -248,6 +289,7 @@ button.text {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
+  margin: var(--spacing-md) var(--spacing-sm); /* Add spacing around buttons */
 
   &:hover {
     text-decoration: underline;
@@ -262,6 +304,7 @@ button.text {
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-subtle);
   transition: all 0.2s ease;
+  margin: var(--spacing-2xl) 0; /* Add vertical spacing around cards */
 
   &:hover {
     box-shadow: var(--shadow-elevated);
@@ -274,6 +317,60 @@ button.text {
   &.card-accent-terracotta {
     border-top: 4px solid var(--tertiary);
   }
+}
+
+/* Clickable Card Links */
+a.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+
+  &:hover {
+    transform: translateY(-2px);
+
+    .card {
+      box-shadow: var(--shadow-elevated);
+      border-color: var(--secondary);
+    }
+  }
+}
+
+/* Card Grid Container - for side-by-side cards */
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin: var(--spacing-2xl) 0;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: var(--spacing-xl);
+    align-items: stretch; /* Make cards same height */
+  }
+
+  /* Children take equal width */
+  & > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Push buttons to bottom of cards */
+  & .card {
+    display: flex;
+    flex-direction: column;
+
+    & > *:last-child {
+      margin-top: auto; /* Push last element (button) to bottom */
+      align-self: flex-start; /* Don't stretch button to full width */
+    }
+  }
+}
+
+/* Cards inside grid don't need extra margin */
+.card-grid .card,
+.card-grid a.card-link {
+  margin: 0;
 }
 
 /* Pull Quotes */
@@ -523,4 +620,30 @@ textarea:focus-visible {
 }
 .p-2xl {
   padding: var(--spacing-2xl);
+}
+
+/* ============================================
+   Handwritten Accent Font
+   ============================================ */
+
+/* Use VERY sparingly for personal touches */
+.handwritten {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-size: 1.5rem; /* ~24pt for annotations */
+  line-height: 1.4;
+}
+
+.handwritten-signature {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-size: 1.75rem; /* ~28pt for signatures */
+  line-height: 1.2;
+}
+
+.handwritten-quote {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-size: 2rem; /* ~32pt for short quotes */
+  line-height: 1.3;
 }
