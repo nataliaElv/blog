@@ -198,6 +198,11 @@ a.btn-primary {
   display: inline-block;
   margin: var(--spacing-lg) var(--spacing-sm); /* Add spacing around buttons */
 
+  /* Hide external link icon on buttons */
+  .external-icon {
+    display: none;
+  }
+
   &:hover {
     filter: brightness(1.1);
     box-shadow: var(--shadow-hover);
@@ -233,9 +238,20 @@ a.btn-secondary {
   display: inline-block;
   margin: var(--spacing-lg) var(--spacing-sm); /* Add spacing around buttons */
 
+  /* Hide external link icon on buttons */
+  .external-icon {
+    display: none;
+  }
+
   &:hover {
     background-color: rgba(196, 95, 71, 0.1);
     color: var(--tertiary) !important; /* Keep terracotta color on hover */
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  &:active {
+    transform: translateY(0);
   }
 
   &:focus-visible {
@@ -260,6 +276,11 @@ a.btn-terracotta {
   text-decoration: none !important;
   display: inline-block;
   margin: var(--spacing-lg) var(--spacing-sm);
+
+  /* Hide external link icon on buttons */
+  .external-icon {
+    display: none;
+  }
 
   &:hover {
     filter: brightness(1.1);
@@ -508,6 +529,26 @@ code {
 img {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-subtle);
+}
+
+/* Profile image - circular with border */
+.profile-image {
+  border-radius: 50% !important;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid var(--secondary);
+  box-shadow: var(--shadow-elevated);
+  float: left;
+  margin: 0 var(--spacing-xl) var(--spacing-lg) 0;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 var(--spacing-md) var(--spacing-md) 0;
+  }
 }
 
 /* ============================================

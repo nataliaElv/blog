@@ -5,6 +5,8 @@ tags:
   - en
 ---
 
+<img src="/images/profile.jpg" alt="Natalia Elvira Astoreca" class="profile-image" />
+
 I'm Natalia, an AI Engineer from Madrid (Spain) who accidentally found the perfect intersection between ancient languages and modern AI.
 
 ## The Journey from Dead Languages to AI
@@ -49,26 +51,15 @@ My approach is practical:
 4. Build evaluation that measures what matters
 5. Optimize for both performance and cost
 
-## Work With Me
-
-If you're struggling to bridge the gap from raw text data to production AI systems, or wondering whether you need LLMs or something simpler, let's talk.
-
-**Get in touch:**
-- [Book a discovery call](https://cal.com/nea-glossa/30min)
-- [Fill in this contact form](https://tally.so/r/wzPBV8)
-
-**Follow me:**
-- LinkedIn: https://www.linkedin.com/in/neastoreca/
-- X: https://x.com/natalakiou
-
-**My work:**
-- Hugging Face: https://huggingface.co/nataliaElv
-- Github: https://github.com/nataliaElv
-- Knowledge Commons: https://hcommons.org/members/neastoreca/
-
 ## Beyond Work
 
 When I'm not thinking about text and AI, I'm usually:
 - Playing videogames (current favorites: "Papers, Please", "Outer Wilds", and "Stardew Valley")
 - Crocheting or knitting to balance out all the screen time
 - Spending time with family
+
+## Work With Me
+
+If you're struggling to bridge the gap from raw text data to production AI systems, or wondering whether you need LLMs or something simpler, let's talk.
+
+<a href="https://tally.so/r/wzPBV8" class="btn-primary">Get in touch</a> <a href="https://cal.com/nea-glossa/30min" class="btn-secondary">Book a call</a>

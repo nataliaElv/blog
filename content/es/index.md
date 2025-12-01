@@ -9,7 +9,7 @@ tags:
 
 Soy **Natalia Elvira Astoreca**, y este es el lugar donde comparto lo que he aprendido sobre construcción de sistemas de IA que realmente funcionan con texto complejo.
 
-## Qué Encontrarás Aquí
+## Qué encontrarás aquí
 
 Este blog trata sobre el lado práctico de la ingeniería de IA - las decisiones, compromisos y complejidad lingüística que determinan si un sistema de IA tiene éxito o falla en producción.
 
@@ -19,13 +19,13 @@ Escribo sobre:
 - **Patrones lingüísticos** - Los casos extremos y estructuras que hacen o rompen la IA de texto
 - **Desafíos de producción** - Qué pasa realmente cuando despliegas estos sistemas
 
-## Para Quién Es Esto
+## Para quién es
 
 Si trabajas en sistemas de IA que procesan texto - ya sea construyéndolos, evaluándolos, o intentando entender por qué se comportan como lo hacen - puede que encuentres algo útil aquí.
 
 Los posts asumen cierta base técnica, pero intento explicar los conceptos claramente. Si algo no está claro, es mi responsabilidad, no tuya.
 
-## Un Poco Sobre Mi Trayectoria
+## Un poco sobre mi trayectoria
 
 Vengo de un camino inusual: empecé con lingüística griega antigua, estudiando alfabetos arcaicos y variaciones dialectales en Cambridge. Eso me enseñó a ver el lenguaje como un sistema lleno de patrones, excepciones y significado dependiente del contexto.
 
