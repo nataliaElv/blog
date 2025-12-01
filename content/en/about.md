@@ -5,8 +5,6 @@ tags:
   - en
 ---
 
-Hi! 👋  
-
 I'm Natalia, an AI Engineer from Madrid (Spain) who accidentally found the perfect intersection between ancient languages and modern AI.
 
 ## The Journey from Dead Languages to AI

@@ -5,8 +5,6 @@ tags:
   - es
 ---
 
-¡Hola! 👋  
-
 Soy Natalia, ingeniera de IA de Madrid (España) que accidentalmente encontró la intersección perfecta entre lenguas antiguas e IA moderna.
 
 ## El Viaje desde Lenguas Muertas a IA
