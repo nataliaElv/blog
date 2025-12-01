@@ -25,30 +25,30 @@ const config: QuartzConfig = {
       typography: {
         header: "Fraunces",
         body: "Inter",
-        code: "IBM Plex Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#f8f6f2", // soft warm white with slight cream undertone
-          lightgray: "#efeae0", // light warm gray, like natural linen
-          gray: "#9a8f7e", // warm taupe - muted elements
-          darkgray: "#3d3428", // deep warm brown - body text (WCAG AA: 10.5:1)
-          dark: "#1b1612", // almost black with warm undertone - headings (WCAG AAA: 16.8:1)
-          secondary: "#3a6b68", // dark teal-green - links (WCAG AA: 5.2:1)
-          tertiary: "#b85c3a", // warm terracotta/rust - accents
-          highlight: "rgba(58, 107, 104, 0.15)", // teal-green transparency
-          textHighlight: "#c9975488", // soft amber transparency
+          light: "#F8F5F2", // Soft Cream - background
+          lightgray: "#9BAA9E", // Light Sage - soft backgrounds, borders
+          gray: "#8E8581", // Warm Gray - muted text, borders
+          darkgray: "#3A3634", // Warm Charcoal - body text (WCAG AAA: 12.8:1)
+          dark: "#2D5F5D", // Deep Teal - headings, primary emphasis
+          secondary: "#2D5F5D", // Deep Teal - links, primary CTAs
+          tertiary: "#C45F47", // Deep Terracotta - accents, stats, secondary CTAs
+          highlight: "rgba(45, 95, 93, 0.15)", // Deep Teal transparency
+          textHighlight: "#D4A57488", // Warm Amber transparency
         },
         darkMode: {
-          light: "#151312", // deep charcoal with slight green undertone
-          lightgray: "#252220", // dark warm gray
-          gray: "#8a7d6f", // warm stone - muted elements
-          darkgray: "#d4cbbf", // warm sand - body text (WCAG AA: 9.8:1)
-          dark: "#f2ebe0", // soft cream - headings (WCAG AAA: 13.5:1)
-          secondary: "#5fa09c", // lighter teal-green - links (WCAG AA: 6.5:1)
-          tertiary: "#d97854", // brighter terracotta - accents
-          highlight: "rgba(95, 160, 156, 0.15)", // teal-green transparency
-          textHighlight: "#c9975488", // soft amber transparency
+          light: "#1A1816", // Dark Background - primary dark background
+          lightgray: "#2F2D2A", // Dark Surface Elevated - tooltips, popovers
+          gray: "#B8B3AE", // Muted Text - captions, metadata
+          darkgray: "#E8E5E2", // Primary Text - main text (WCAG AAA: 12.1:1)
+          dark: "#3D7F7D", // Bright Teal - headings, primary emphasis
+          secondary: "#3D7F7D", // Bright Teal - links, primary CTAs
+          tertiary: "#E89580", // Bright Terracotta - accents, stats
+          highlight: "rgba(61, 127, 125, 0.15)", // Bright Teal transparency
+          textHighlight: "#E5C49A88", // Light Amber transparency
         },
       },
     },
@@ -69,7 +69,10 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        openLinksInNewTab: true,
+      }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

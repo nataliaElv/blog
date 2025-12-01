@@ -82,11 +82,17 @@
 
   &.active {
     background-color: var(--secondary);
-    color: var(--light);
+    color: #ffffff; /* Pure white for maximum contrast on teal */
     font-weight: 600;
 
     &:hover {
       background-color: var(--secondary);
+      color: #ffffff;
+    }
+
+    /* Ensure nested elements also get white text */
+    .language-name {
+      color: #ffffff;
     }
   }
 
