@@ -5,7 +5,7 @@ tags:
   - es
 ---
 
-¡Hola! 👋
+<span class="handwritten"> ¡Hola! 👋 </span>
 
 Soy **Natalia Elvira Astoreca**, y este es el lugar donde comparto lo que he aprendido sobre construcción de sistemas de IA que realmente funcionan con texto complejo.
 
@@ -34,4 +34,3 @@ Actualmente trabajo en sistemas modernos de IA de texto, pero el desafío centra
 Si quieres saber más sobre mi trabajo o trayectoria, visita la página [Sobre mí](/es/about).
 
 ## Explora
-

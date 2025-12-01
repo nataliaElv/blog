@@ -12,7 +12,7 @@ draft: false
 
   <div class="card card-accent-terracotta">
     <h2><code>es</code> - Español</h2>
-    <p> <span class="handwritten">¡Bienvenida!</span> Soy Natalia, lingüista computacional e ingeniera de IA especializada en construir sistemas de IA confiables para problemas complejos de texto.</p>
+    <p>¡Bienvenida! Soy Natalia, lingüista computacional e ingeniera de IA especializada en construir sistemas de IA confiables para problemas complejos de texto.</p>
     <a href="es/" class="btn-terracotta">Entrar al sitio en español →</a>
   </div>
 </div>

@@ -5,11 +5,13 @@
  * Based on Natalia Elvira Astoreca Brand System
  */
 
-/* ============================================
+/* Caveat handwritten font - loaded via Head.tsx from Google Fonts */
+:root {
+  --handwritten-font: "Caveat", "Brush Script MT", cursive;
+
+  /* ============================================
    Extended Brand Color Palette
    ============================================ */
-
-:root {
   /* Additional Brand Colors (Light Mode) */
   --brand-sage-green: #7a8a7e;
   --brand-warm-amber: #d4a574;
@@ -623,27 +625,46 @@ textarea:focus-visible {
 }
 
 /* ============================================
-   Handwritten Accent Font
+   Handwritten Accent Font (Caveat)
    ============================================ */
 
-/* Use VERY sparingly for personal touches */
+/*
+ * Use VERY sparingly for personal touches only!
+ *
+ * ✅ DO use for:
+ * - Personal signatures
+ * - Short annotations (2-4 words max)
+ * - "Personal note from Natalia" sections
+ * - Very short emphasis
+ *
+ * ❌ DON'T use for:
+ * - Headings or subheadings
+ * - Body text or paragraphs
+ * - Navigation or UI elements
+ * - Anything longer than one sentence
+ * - Professional documents
+ */
+
+/* For short annotations and personal notes (20-24pt recommended) */
 .handwritten {
-  font-family: "Caveat", cursive;
-  font-weight: 500;
-  font-size: 1.5rem; /* ~24pt for annotations */
+  font-family: var(--handwritten-font);
+  font-weight: 500; /* Medium weight for best legibility */
+  font-size: 1.5rem; /* 24pt - upper end of annotation range */
   line-height: 1.4;
 }
 
+/* For personal signatures (28-32pt recommended) */
 .handwritten-signature {
-  font-family: "Caveat", cursive;
+  font-family: var(--handwritten-font);
   font-weight: 500;
-  font-size: 1.75rem; /* ~28pt for signatures */
+  font-size: 1.75rem; /* 28pt - lower end of signature/quote range */
   line-height: 1.2;
 }
 
+/* For short handwritten-style quotes (28-32pt recommended) */
 .handwritten-quote {
-  font-family: "Caveat", cursive;
+  font-family: var(--handwritten-font);
   font-weight: 500;
-  font-size: 2rem; /* ~32pt for short quotes */
+  font-size: 2rem; /* 32pt - upper end for emphasis */
   line-height: 1.3;
 }

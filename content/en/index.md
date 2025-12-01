@@ -5,7 +5,7 @@ tags:
   - en
 ---
 
-Hi! 👋
+<span class="handwritten"> Hi! 👋 </span>
 
 I'm **Natalia Elvira Astoreca**, and this is where I share what I've learned about building AI systems that actually work with complex text.
 
@@ -34,4 +34,3 @@ These days, I work on modern text AI systems, but the core challenge is remarkab
 If you want to know more about my work or background, check out the [About me](/en/about) page.
 
 ## Explore
-
