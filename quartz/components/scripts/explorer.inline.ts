@@ -176,11 +176,28 @@ async function setupExplorer(currentSlug: FullSlug) {
     const entries = [...Object.entries(data)] as [FullSlug, ContentDetails][]
     const trie = FileTrieNode.fromEntries(entries)
 
+    // Detect current language from URL
+    const getCurrentLanguage = (): string | null => {
+      const path = window.location.pathname
+      if (path.startsWith("/en/") || path === "/en") return "en"
+      if (path.startsWith("/es/") || path === "/es") return "es"
+      return null // Root path has no language
+    }
+
+    const currentLang = getCurrentLanguage()
+
     // Apply functions in order
     for (const fn of opts.order) {
       switch (fn) {
         case "filter":
           if (opts.filterFn) trie.filter(opts.filterFn)
+          // Apply language filter if we're on a language-specific page
+          if (currentLang) {
+            trie.filter((node) => {
+              // Keep nodes that start with the current language or are the language folder itself
+              return node.slug.startsWith(currentLang + "/") || node.slug === currentLang
+            })
+          }
           break
         case "map":
           if (opts.mapFn) trie.map(opts.mapFn)
@@ -205,6 +222,9 @@ async function setupExplorer(currentSlug: FullSlug) {
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
 
+    // Clear existing content to prevent duplication
+    explorerUl.innerHTML = ""
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
@@ -214,7 +234,7 @@ async function setupExplorer(currentSlug: FullSlug) {
 
       fragment.appendChild(node)
     }
-    explorerUl.insertBefore(fragment, explorerUl.firstChild)
+    explorerUl.appendChild(fragment)
 
     // restore explorer scrollTop position if it exists
     const scrollTop = sessionStorage.getItem("explorerScrollTop")

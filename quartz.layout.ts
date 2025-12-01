@@ -47,7 +47,11 @@ export const defaultContentPageLayout: PageLayout = {
       gap: "0.8rem",
     }),
     Component.Search(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.Explorer()),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
