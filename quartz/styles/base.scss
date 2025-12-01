@@ -31,13 +31,13 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--lightgray);
+  background: var(--light);
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--gray);
   border-radius: 6px;
-  border: 2px solid var(--lightgray);
+  border: 2px solid var(--light);
 
   &:hover {
     background: var(--darkgray);
@@ -47,7 +47,7 @@ html {
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--gray) var(--lightgray);
+  scrollbar-color: var(--gray) var(--light);
 }
 
 body {

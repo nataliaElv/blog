@@ -546,13 +546,23 @@ textarea:focus-visible {
    Smooth Scrollbar Styling
    ============================================ */
 
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
 ::-webkit-scrollbar-thumb {
-  background: var(--secondary);
+  background: var(--gray);
   border-radius: var(--radius-sm);
+  border: 2px solid var(--light);
 
   &:hover {
-    background: var(--tertiary);
+    background: var(--darkgray);
   }
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-color: var(--gray) var(--light);
 }
 
 /* ============================================
