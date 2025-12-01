@@ -19,14 +19,14 @@ Cuando descubrí la lingüística computacional y la IA, me di cuenta de que era
 
 ## A qué me dedico ahora
 
-Trabajo de forma independiente ayudando a empresas a construir sistemas de IA confiables para problemas complejos de texto. La mayoría de los equipos luchan para cerrar la brecha desde datos de texto sin procesar hasta sistemas de IA en producción - o bien sobre-ingenian con LLMs costosos cuando enfoques más simples funcionarían, o saltan pasos críticos de diseño y terminan con sistemas que no resuelven el problema real del negocio.
+Trabajo de forma independiente ayudando a empresas a construir sistemas de IA confiables para problemas complejos de texto. Muchos equipos tienen dificultades para cerrar la brecha entre los datos de texto sin procesar y sistemas de IA en producción - o bien utiliza LLMs costosos cuando enfoques más simples funcionarían, o saltan pasos críticos de diseño y terminan con sistemas que no resuelven el problema real del negocio.
 
-Combino tres perspectivas que la mayoría de especialistas trabajando solos no pueden:
-- **Lingüística** - Entiendo qué hace complejo al texto e identifico casos extremos que rompen los modelos estándar
+Yo combino tres perspectivas que la mayoría de especialistas trabajando solos no pueden:
+- **Lingüística y filología** - Entiendo qué hace complejo a un texto y cómo crear corpora adecuados para problemas concretos 
 - **Pensamiento de producto** - Traduzco necesidades de negocio en especificaciones técnicas y hablo ambos idiomas con fluidez
 - **Ingeniería de ML** - Construyo arquitecturas que realmente funcionan en producción
 
-Esta combinación significa que veo problemas que los ingenieros puros pierden, defino requisitos que los lingüistas puros no pueden, y entrego sistemas que los PMs puros luchan por especificar.
+Esta combinación significa que veo problemas que los ingenieros puros pierden, defino requisitos que los lingüistas puros no pueden, y entrego sistemas que los PMs puros sólo pueden especificar.
 
 He diseñado y construido aplicaciones de IA exitosas para extracción de texto complejo en fintech y healthtech - industrias donde equivocarse con el texto tiene consecuencias reales. Actualmente trabajo con empresas como [The Newsroom](http://thenewsroom.ai/), ayudándolas a navegar la brecha entre "tenemos datos de texto" y "tenemos un sistema de IA funcionando."
 
@@ -35,20 +35,20 @@ He diseñado y construido aplicaciones de IA exitosas para extracción de texto 
 Trabajo con empresas que necesitan construir sistemas de IA de texto que realmente funcionen en producción. Esto típicamente involucra:
 
 - **Decisiones de Arquitectura**: NLP tradicional vs. modelos ajustados vs. LLMs - y cuándo usar cada uno. A veces la respuesta es un LLM de vanguardia. A menudo no lo es. La clave es saber la diferencia.
-- **Diseño de Pipelines End-to-End**: Desde requisitos vagos hasta sistemas listos para producción. Te ayudo a evitar la trampa común de saltar a una solución técnica antes de entender el problema real.
-- **Marcos de Evaluación**: Métricas que realmente importan para tu negocio, no solo benchmarks académicos que se ven bien en papers.
+- **Diseño de Pipelines End-to-End**: Pasar de requisitos vagos a sistemas listos para producción. Te ayudo a evitar la trampa común de saltar a una solución técnica antes de entender el problema real.
+- **Marcos de Evaluación**: Métricas que realmente importan para tu problema específico, no solo benchmarks académicos que se ven bien en papers.
 - **Estrategia de Datos**: Curación, anotación y control de calidad para texto complejo. Equivocarse en esto es la forma más rápida de perder tiempo y dinero.
-- **Optimización de Costes**: Rendimiento sin quemar presupuesto en llamadas innecesarias a LLMs. La mayoría de sistemas están sobre-ingenierizados - ayudo a encontrar el equilibrio correcto.
+- **Optimización de Costes**: Rendimiento sin quemar presupuesto en llamadas innecesarias a LLMs. Ayudo a encontrar el equilibrio correcto para no matar moscas con _bazookas_.
 
 ## Mi enfoque
 
-Creo que la mayoría de proyectos de IA fallan no por la tecnología, sino por desalineación entre necesidades de negocio e implementación técnica.
+Creo que la mayoría de proyectos de IA fallan no por la tecnología, sino por alinear la implementación técnica a las necesidades de negocio.
 
 Mi enfoque es práctico:
 1. Entender el problema real de negocio (no la solución técnica asumida)
 2. Analizar qué hace difícil el texto
 3. Elegir la arquitectura más simple que funcionará
-4. Construir evaluación que mida lo que importa
+4. Construir evaluaciones que miden lo que importa
 5. Optimizar tanto rendimiento como coste
 
 ## Más allá del trabajo

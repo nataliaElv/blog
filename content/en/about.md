@@ -22,11 +22,11 @@ When I discovered computational linguistics and AI, I realized this was the same
 I work independently helping companies build reliable AI systems for complex text problems. Most teams struggle to bridge the gap from raw text data to production AI systems - they either over-engineer with expensive LLMs when simpler approaches would work, or they skip critical design steps and end up with systems that don't solve the actual business problem.
 
 I combine three perspectives that most specialists working alone can't:
-- **Linguistics** - I understand what makes text complex and identify edge cases that break standard models
+- **Linguistics and philology** - I understand what makes text complex and how to make taylored corpora for specific problems
 - **Product thinking** - I translate business needs into technical specs and speak both languages fluently  
 - **ML Engineering** - I build architectures that actually work in production
 
-This combination means I see problems pure engineers miss, define requirements pure linguists can't, and deliver systems pure PMs struggle to scope. 
+This combination means I see problems pure engineers miss, define requirements pure linguists can't, and deliver systems pure PMs can only scope. 
 
 I've designed and built successful AI applications for complex text extraction in fintech and healthtech - industries where getting text wrong has real consequences. Currently, I work with companies like [The Newsroom](http://thenewsroom.ai/), helping them navigate the gap between "we have text data" and "we have a working AI system."
 
@@ -38,7 +38,7 @@ I work with companies that need to build text AI systems that actually work in p
 - **End-to-End Pipeline Design**: From vague requirements to production-ready systems. I help you avoid the common trap of jumping to a technical solution before understanding the actual problem.
 - **Evaluation Frameworks**: Metrics that actually matter for your business, not just academic benchmarks that look good in papers.
 - **Data Strategy**: Curation, annotation, and quality control for complex text. Getting this wrong is the fastest way to waste time and money.
-- **Cost Optimization**: Performance without burning budget on unnecessary LLM calls. Most systems are over-engineered - I help find the right balance.
+- **Cost Optimization**: Performance without burning budget on unnecessary LLM calls. I help find the right balance so you're not killing flies with bazookas.
 
 ## My Approach
 
@@ -48,7 +48,7 @@ My approach is practical:
 1. Understand the actual business problem (not the assumed technical solution)
 2. Analyze what makes the text difficult
 3. Choose the simplest architecture that will work
-4. Build evaluation that measures what matters
+4. Build evaluations that measure what matters
 5. Optimize for both performance and cost
 
 ## Beyond Work
