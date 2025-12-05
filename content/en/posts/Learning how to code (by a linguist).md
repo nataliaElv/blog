@@ -14,8 +14,9 @@ For those who want to convert: Talk about libraries and frameworks that I've lea
 
 📚 Python libraries:
 - SpaCy:
-- Pandas:
+- Pandas/Polars:
 - Datasets:
+- Transformers:
 
 ✍️ Annotation tools:
 - Prodigy:
@@ -35,4 +36,4 @@ For those who want to convert: Talk about libraries and frameworks that I've lea
 Rather than the skills that you need to get started, these are the skills that you will develop as you dive deeper into coding and NLP.
 - Logic thinking: regexes and coding 
 - Corpus building: for annotations
-- Error handling: 
+- Error handling:

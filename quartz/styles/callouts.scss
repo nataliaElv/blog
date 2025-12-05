@@ -4,7 +4,7 @@
 .callout {
   border: 1px solid var(--border);
   background-color: var(--bg);
-  border-radius: 5px;
+  border-radius: 6px; /* Updated to match brand system radius-sm */
   padding: 0 1rem;
   overflow-y: hidden;
   box-sizing: border-box;
@@ -35,24 +35,24 @@
   --callout-icon-fold: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C/polyline%3E%3C/svg%3E');
 
   &[data-callout] {
-    --color: #448aff;
-    --border: #448aff44;
-    --bg: #448aff10;
+    --color: #2d5f5d; /* Deep Teal - technical/informational */
+    --border: #2d5f5d44;
+    --bg: #2d5f5d10;
     --callout-icon: var(--callout-icon-note);
   }
 
   &[data-callout="abstract"] {
-    --color: #00b0ff;
-    --border: #00b0ff44;
-    --bg: #00b0ff10;
+    --color: #7a8a7e; /* Sage Green - secondary/summary */
+    --border: #7a8a7e44;
+    --bg: #7a8a7e10;
     --callout-icon: var(--callout-icon-abstract);
   }
 
   &[data-callout="info"],
   &[data-callout="todo"] {
-    --color: #00b8d4;
-    --border: #00b8d444;
-    --bg: #00b8d410;
+    --color: #2d5f5d; /* Deep Teal - informational/task-oriented */
+    --border: #2d5f5d44;
+    --bg: #2d5f5d10;
     --callout-icon: var(--callout-icon-info);
   }
 
@@ -61,39 +61,39 @@
   }
 
   &[data-callout="tip"] {
-    --color: #00bfa5;
-    --border: #00bfa544;
-    --bg: #00bfa510;
+    --color: #c45f47; /* Deep Terracotta - warm/helpful emphasis */
+    --border: #c45f4744;
+    --bg: #c45f4710;
     --callout-icon: var(--callout-icon-tip);
   }
 
   &[data-callout="success"] {
-    --color: #09ad7a;
-    --border: #09ad7144;
-    --bg: #09ad7110;
+    --color: #6b8e7a; /* Success Green - positive states */
+    --border: #6b8e7a44;
+    --bg: #6b8e7a10;
     --callout-icon: var(--callout-icon-success);
   }
 
   &[data-callout="question"] {
-    --color: #dba642;
-    --border: #dba64244;
-    --bg: #dba64210;
+    --color: #d4a574; /* Warm Amber - draws attention without alarm */
+    --border: #d4a57444;
+    --bg: #d4a57410;
     --callout-icon: var(--callout-icon-question);
   }
 
   &[data-callout="warning"] {
-    --color: #db8942;
-    --border: #db894244;
-    --bg: #db894210;
+    --color: #cc8f5a; /* Warning Amber - important notices */
+    --border: #cc8f5a44;
+    --bg: #cc8f5a10;
     --callout-icon: var(--callout-icon-warning);
   }
 
   &[data-callout="failure"],
   &[data-callout="danger"],
   &[data-callout="bug"] {
-    --color: #db4242;
-    --border: #db424244;
-    --bg: #db424210;
+    --color: #b94a3d; /* Error Terracotta - critical alerts */
+    --border: #b94a3d44;
+    --bg: #b94a3d10;
     --callout-icon: var(--callout-icon-failure);
   }
 
@@ -106,15 +106,16 @@
   }
 
   &[data-callout="example"] {
-    --color: #7a43b5;
-    --border: #7a43b544;
-    --bg: #7a43b510;
+    --color: #9baa9e; /* Light Sage - soft examples/demos */
+    --border: #9baa9e44;
+    --bg: #9baa9e10;
     --callout-icon: var(--callout-icon-example);
   }
 
   &[data-callout="quote"] {
-    --color: var(--secondary);
-    --border: var(--lightgray);
+    --color: #8e8581; /* Warm Gray - neutral quotes */
+    --border: #8e858144;
+    --bg: #8e858110;
     --callout-icon: var(--callout-icon-quote);
   }
 
