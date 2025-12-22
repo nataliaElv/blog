@@ -56,3 +56,8 @@ Each with real examples and how to avoid them
 - Edge case analysis from linguistics perspective
 - Production-relevant metrics
 - Real evaluation frameworks you've built
+
+**I'm using LLMs in my project. Do I really need annotations?**
+
+- Evaluations for prompt engineering, for example. 
+- What if a new model comes out? Which is best?
